@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.13.4",
     "@typescript-eslint/eslint-plugin": "^2.30.0",
     "@typescript-eslint/parser": "^2.30.0",
@@ -19,8 +22,10 @@
     "eslint-plugin-standard": "4",
     "git-commit-msg-linter": "^2.4.2",
     "husky": "^4.2.5",
+    "jest": "^25.5.2",
     "lint-staged": "^10.2.1",
     "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   }
 }
